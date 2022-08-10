@@ -7,8 +7,11 @@ use App\Http\Controllers\TonkhoController;
 use App\Http\Controllers\NhanvienController;
 use App\Http\Controllers\ChucvuController;
 use App\Http\Controllers\SachController;
+use App\Http\Controllers\DangnhapController;
 use App\Http\Controllers\front\HomeController;
 use Illuminate\Support\Facades\Route;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -35,10 +38,12 @@ Route::resource('/chucvu', ChucvuController::class);
 
 Route::resource('/abcmarket', HomeController::class);
 
+Route::resource('/dangnhap', DangnhapController::class);
 
-// Route::get('/', function () {
-//     return view('layout.admin.master');
-// })->name('dasboard');
+
+Route::get('/', function () {
+    return view('layout.admin.master');
+})->name('dasboard');
 
 //------------------------
 

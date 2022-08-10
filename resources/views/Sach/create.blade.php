@@ -35,9 +35,9 @@
                         <strong>tác giả</strong>
                         <select name="tac_gia" class="form-select" >
                             <option selected>chọn tác giả</option>
-                            <option value="1">tac gia 1</option>
-                            <option value="2">tac gia 2</option>
-                            <option value="3">tac gia 3</option>
+                            <option value="tac gia 1">tac gia 1</option>
+                            <option value="tac gia 2">tac gia 2</option>
+                            <option value="tac gia 3">tac gia 3</option>
                         </select>
                     </div>
 
